@@ -19,7 +19,7 @@ public class CalculatorTest {
     @Test
     @DisplayName("2 x 6 = 12")
     void test3() {
-        Assertions.assertEquals(15, Calculator.multiple(2, 6));
+        Assertions.assertEquals(12, Calculator.multiple(2, 6));
     }
 
 }
