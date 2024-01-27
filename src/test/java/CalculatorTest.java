@@ -11,12 +11,12 @@ public class CalculatorTest {
 
     @Test
     void test2() {
-        Assert.assertEquals(32, Calculator.multiple(2, 2));
+        Assert.assertEquals(6, Calculator.multiple(3, 2));
     }
 
     @Test
     void test3() {
-        Assert.assertEquals(23, Calculator.multiple(2, 2));
+        Assert.assertEquals(25, Calculator.multiple(5, 5));
     }
 
 
