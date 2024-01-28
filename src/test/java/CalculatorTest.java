@@ -10,7 +10,7 @@ public class CalculatorTest {
 
     @Test
     void test2() {
-        Assert.assertEquals(9, Calculator.multiple(3, 3));
+        Assert.assertEquals(10, Calculator.multiple(3, 3));
     }
 
     @Test
