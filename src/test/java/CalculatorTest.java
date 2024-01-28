@@ -11,7 +11,7 @@ public class CalculatorTest {
 
     @Test
     void test2() {
-        Assert.assertEquals(6, Calculator.multiple(3, 2));
+        Assert.assertEquals(9, Calculator.multiple(3, 3));
     }
 
     @Test
